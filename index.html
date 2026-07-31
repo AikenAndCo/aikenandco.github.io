@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- saved from url=(0044)file:///Users/jeffaiken/Downloads/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeff Aiken</title>
-  <meta name="description" content="Revenue Growth Management leader in CPG. Building analytics tools and frameworks that commercial teams can actually use." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta name="description" content="Revenue Growth Management leader in CPG. Building analytics tools and frameworks that commercial teams can actually use.">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./Jeff Aiken_files/css2" rel="stylesheet">
 
   <style>
     *, *::before, *::after {
@@ -165,9 +165,18 @@
       transition: border-color 0.18s ease, box-shadow 0.18s ease;
     }
 
+    .work-item + .work-item {
+      margin-top: 14px;
+    }
+
     .work-item:hover {
       border-color: rgba(30, 61, 43, 0.28);
       box-shadow: 0 2px 12px rgba(30, 61, 43, 0.07);
+    }
+
+    .work-item:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 2px;
     }
 
     .work-item-header {
@@ -305,6 +314,10 @@
         gap: 4px;
       }
     }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
   </style>
 </head>
 <body>
@@ -321,7 +334,7 @@
           <h1 class="name">Jeff Aiken</h1>
           <p class="descriptor">
             Revenue Growth Management
-            <span>&middot;</span>
+            <span>·</span>
             CPG
           </p>
         </div>
@@ -335,7 +348,7 @@
         I work in Revenue Growth Management. What I've found over the last few years is that AI changes what's actually possible in this kind of work. Not the version people put in press releases. The version where analysis that used to take a week takes an afternoon, where a pricing tool that used to need a data science team gets built by one person over a weekend, and where the question shifts from "can we do this" to "what should we do with it."
       </p>
       <p>
-        I got here by doing almost everything else first. Retail. Consumer banking. Accounting. FP&A. Brand finance. Commercial sales finance. Sales analytics. Account management. Then RGM at L'Oréal, Coca-Cola, and Revlon. That background makes me useful in rooms where the finance person and the sales person are talking past each other.
+        I got here by doing almost everything else first. Retail. Consumer banking. Accounting. FP&amp;A. Brand finance. Commercial sales finance. Sales analytics. Account management. Then RGM at L'Oréal, Coca-Cola, and Revlon. That background makes me useful in rooms where the finance person and the sales person are talking past each other.
       </p>
       <p>
         It turns out a lemonade stand is a surprisingly complete model for almost any pricing, promo, or margin concept you'd want to explain to a CFO, a buyer, or an eight-year-old. I've tested this.
@@ -348,21 +361,36 @@
     <!-- Work -->
     <section>
       <p class="section-label">Selected Work</p>
-      <a class="work-item" href="/HairColorPricing/" aria-label="Hair Color · Competitive Price Landscape">
+
+      <a class="work-item" href="file:///new-item-pricer/" aria-label="New Item Pricer, an interactive pricing architecture tool">
         <div class="work-item-header">
-          <span class="work-title">Hair Color &middot; Competitive Price Landscape</span>
-          <span class="work-tag">Walmart &middot; Interactive</span>
+          <span class="work-title">New Item Pricer</span>
+          <span class="work-tag">Pricing architecture · Interactive</span>
         </div>
         <p class="work-desc">
-          An interactive analysis of women's hair color pricing at Walmart — permanent color, after-color care, root touch-up, and demi-permanent products mapped against price tiers from VALUE through PRESTIGE. Click any price to model a scenario.
+          Set a margin target and each retailer's terms, and the list price, SRP, and EDLP all fall out. Shelf price is never an input. Shows why an on-invoice allowance is really just the off-invoice money one retailer declines to take, handed over on the invoice instead.
+        </p>
+        <div class="work-link-row">
+          <span class="work-url">jeffaiken.ai/new-item-pricer</span>
+        </div>
+      </a>
+
+      <a class="work-item" href="file:///HairColorPricing/" aria-label="Hair Color, competitive price landscape at Walmart">
+        <div class="work-item-header">
+          <span class="work-title">Hair Color · Competitive Price Landscape</span>
+          <span class="work-tag">Walmart · Interactive</span>
+        </div>
+        <p class="work-desc">
+          An interactive analysis of women's hair color pricing at Walmart, covering permanent color, after-color care, root touch-up, and demi-permanent products mapped against price tiers from VALUE through PRESTIGE. Click any price to model a scenario.
         </p>
         <div class="work-link-row">
           <span class="work-url">jeffaiken.ai/HairColorPricing</span>
         </div>
       </a>
+
       <div class="disclaimer">
         <p>
-          All analysis published here is built from publicly available information — shelf pricing, retailer assortment, and syndicated category data accessible to anyone. Nothing on this site reflects trade secrets, internal strategy, proprietary data, or specialized knowledge from any employer, past or present.
+          All analysis published here is built from publicly available information: shelf pricing, retailer assortment, and syndicated category data accessible to anyone. Nothing on this site reflects trade secrets, internal strategy, proprietary data, or specialized knowledge from any employer, past or present.
         </p>
       </div>
     </section>
@@ -372,17 +400,18 @@
       <p class="section-label">Say hi</p>
       <p class="contact-line">
         <a href="mailto:jeffaiken@duck.com">jeffaiken@duck.com</a>
-        &ensp;&middot;&ensp;
+         · 
         <a href="https://linkedin.com/in/jeffreyaiken26" target="_blank" rel="noopener">LinkedIn</a>
       </p>
     </section>
 
     <!-- Footer -->
     <footer>
-      <p class="footer-text">Jeff Aiken &middot; Weehawken, NJ</p>
+      <p class="footer-text">Jeff Aiken · Weehawken, NJ</p>
     </footer>
 
   </div>
 
-</body>
-</html>
+
+
+</body></html>
